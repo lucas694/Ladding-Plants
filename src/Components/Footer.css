@@ -1,0 +1,57 @@
+.FooterContainer{
+    @apply flex flex-col items-center justify-center w-full p-6 bg-[#C1DCDC]
+    md:p-10
+}
+.FooterContent{
+    @apply flex flex-col w-full
+}
+.FooterCopy{
+    color: rgba(30, 30, 30, 0.5);
+    @apply text-sm font-semibold
+    md:text-base
+}
+.FooterContentMain{
+    @apply flex flex-col items-center justify-between w-full pb-8
+    md:flex-row md:pb-14
+}
+.FooterLeft{
+    @apply flex flex-col items-start justify-center w-full
+    md:w-1/3
+}
+.FooterMessage{
+    color: rgba(30, 30, 30, 0.5);
+    @apply text-sm font-semibold mt-4 w-[50%]
+    md:text-base md:w-[50%]
+    xl:w-[50%]
+    2xl:w-[30%]
+}
+.FooterSocial{
+    @apply flex flex-row items-center mt-5 space-x-4
+    md:mt-6
+}
+.FooterSocialButton{
+    border-color:rgba(30, 30, 30, 0.5);
+    @apply border rounded-full p-3
+    flex items-center justify-center
+}
+.FooterIcon{
+    @apply w-4 h-4 fill-[#464D4D]
+    md:w-5 md:h-5
+}
+.FooterRight{
+     @apply flex flex-row justify-between w-full mt-6
+     md:w-2/3 md:mt-0 md:justify-end md:space-x-12
+     lg:space-x-16
+}
+.FooterUl{
+    @apply flex flex-col items-start justify-center
+}
+.FooterUlTitle{
+    @apply text-base font-bold text-[#1E1E1E]
+    md:text-lg
+}
+.LiFooter{
+    color: rgba(30, 30, 30, 0.5);
+    @apply text-sm font-medium mt-3 cursor-pointer
+    md:text-base md:mt-4
+}

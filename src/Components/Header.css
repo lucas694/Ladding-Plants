@@ -1,0 +1,27 @@
+.HeaderContainer{
+    @apply hidden md:flex flex-row items-center w-full justify-center
+}
+.HeaderContent{
+    @apply flex flex-row items-center w-[90%] h-16 justify-between
+}
+.HeaderLeft{
+    @apply flex flex-row items-center w-2/3
+    lg:w-1/2
+}
+.HeaderRight{
+    @apply flex flex-row items-center justify-around w-[10%]
+}
+.HeaderList{
+    @apply flex flex-row items-center w-1/2 justify-evenly
+}
+.HeaderLi{
+    @apply text-[#1E1E1E] font-semibold text-sm cursor-pointer
+    transition-all duration-300 ease-in-out
+}
+.HeaderLi:hover{
+    color: rgba(30, 30, 30, 0.5);
+}
+
+.HeaderIcon{
+    @apply fill-[#1E1E1E] w-6 h-6
+}

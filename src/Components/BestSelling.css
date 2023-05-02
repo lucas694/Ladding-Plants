@@ -1,0 +1,24 @@
+.BestSellingContainer{
+    @apply flex flex-row justify-center items-center w-full py-10
+}
+.BestSellingContent{
+    @apply flex flex-col justify-between items-center w-full px-6 space-y-10
+    md:flex-row md:w-[90%] md:space-y-0 md:px-0 md:space-x-10
+    xl:space-x-0
+}
+.BestSellingMainCard{
+    @apply flex flex-col w-auto max-w-[280px] rounded-lg shadow-lg
+    sm:max-w-[300px] sm:p-4
+    md:p-0
+}
+.BestSellingMainCardTitle{
+    @apply text-4xl font-bold text-[#1E1E1E] mt-2
+    md:text-xl
+    xl:text-4xl
+}
+.BestSellingMainCardDesc{
+    color: rgba(30, 30, 30, 0.5);
+    @apply text-xl font-semibold  mt-2
+    md:text-sm
+    xl:text-xl
+}

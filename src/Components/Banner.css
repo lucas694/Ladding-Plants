@@ -1,0 +1,80 @@
+.BannerContainer{
+    @apply w-full flex flex-col items-center justify-center mt-10
+}
+.BannerContent{
+    @apply bg-[#C1DCDC] w-[90%] flex flex-col px-6 pt-6 rounded-3xl
+    md:flex-row
+    lg:px-10 lg:pt-10
+}
+.BannerLeft{
+    @apply flex flex-col items-start justify-center w-full pb-10
+    md:w-[50%] lg:pb-20
+
+}
+.BannerRight{
+    @apply flex flex-col items-start justify-end items-center w-full relative
+    md:w-[50%]
+}
+.BannerTitle{
+    @apply text-4xl font-bold text-[#1E1E1E]
+    lg:text-6xl
+    xl:text-7xl
+}
+.BannerInfContainer{
+    @apply flex flex-row items-center w-[100%] justify-between mt-6
+    md:w-[70%] lg:mt-10
+}
+.BannerInfSides{
+    @apply flex flex-col items-start justify-center w-[50%]
+}
+.BannerInfSides h1{
+    @apply text-2xl font-semibold text-[#1E1E1E]
+    sm:text-3xl
+    md:text-2xl
+    lg:text-3xl
+}
+.BannerInfSides p{
+    @apply text-sm font-medium text-[#1E1E1E]
+    sm:text-base
+    md:text-sm
+    lg:text-base
+}
+/*InputSec*/
+.BannerInputContainer{
+    @apply flex flex-row items-center justify-between w-[100%] mt-6 bg-white rounded-xl p-2
+    md:w-[80%] md:mt-10 md:p-3
+}
+.BannerInputContainer input{
+    @apply w-full h-10  outline-none bg-transparent font-medium text-sm
+    sm:text-base
+    md:text-sm
+    lg:text-base
+}
+
+.BannerInputContainer button{
+    @apply w-12 h-10 bg-[#C1DCDC] rounded-lg flex items-center justify-center
+}
+.SearchIcon{
+    @apply w-4 h-4 fill-black
+}
+
+/*Div Right Preta*/
+.BannerRightMain{
+    @apply flex flex-col items-center justify-center w-[100%] bg-black rounded-l-full rounded-t-full
+    sm:w-[70%]
+    md:w-[90%]
+    xl:w-[80%]
+    2xl:w-[60%]
+
+}
+.PlatBannerImg{
+    @apply w-[70%]
+}
+.VectorTop{
+    @apply hidden xl:block absolute -top-7 right-10 w-[4em]  object-cover
+    2xl:w-[4em]
+}
+.VectorLeft{
+    @apply hidden xl:block absolute -left-7 bottom-20 w-[5em]  object-cover
+    2xl:w-[9em]
+}

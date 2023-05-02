@@ -1,0 +1,20 @@
+.CategoriesContainer{
+    @apply flex flex-col w-full items-center justify-center py-10
+    md:py-20
+}
+.CategoriesTitle{
+    @apply text-4xl font-bold text-[#1E1E1E]
+    md:text-5xl
+}
+.CategoriesDesc{
+    color: rgba(30, 30, 30, 0.5);
+    @apply text-sm font-semibold mt-2 text-center
+    md:text-base
+}
+.CategoriesContent{
+    @apply flex flex-col w-full justify-center mt-10 bg-[#C1DCDC] p-10 items-center
+}
+.CategoriesCardsContent{
+    @apply flex flex-col w-full items-center justify-between space-y-6
+    md:flex-row md:space-y-0 md:w-[90%]
+}

@@ -1,0 +1,25 @@
+.BtnBase{
+    @apply flex flex-row justify-center items-center w-full rounded-lg py-2 px-6 text-white
+    md:w-auto
+    transition-all duration-300 ease-in-out cursor-pointer
+    hover:scale-105
+}
+
+.BestSellCardBlue{
+    @apply bg-[#C1DCDC] text-[#1E1E1E] font-semibold w-full
+}
+.ArrowIconBtn{
+    @apply w-5 h-5 ml-2
+    transition-all duration-500 ease-in-out
+}
+/*effect*/
+.BestSellCardBlue:hover .ArrowIconBtn{
+    @apply translate-x-4 scale-125
+}
+
+.BtnWhite{
+    @apply bg-white text-[#1E1E1E] font-semibold w-full
+}
+.BtnWhite:hover .ArrowIconBtn{
+     @apply translate-x-1.5 scale-125
+ }

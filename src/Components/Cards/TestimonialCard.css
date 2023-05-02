@@ -1,0 +1,24 @@
+.TestimonialCardContainer{
+    @apply flex flex-col items-start w-full bg-[#C1DCDC] rounded-lg px-6 pt-6
+    md:w-[50%]
+    lg:px-10 lg:pt-10
+}
+.TestimonialCardDesc{
+    @apply text-[#1E1E1E] text-sm font-medium
+    lg:text-base
+}
+.TestimonialCardInfs{
+    @apply flex flex-row w-full justify-between items-start mt-5
+}
+.TestimonialCardInfLeft{
+    @apply flex flex-row
+}
+.TestimonialCardNameTitle{
+    @apply text-[#1E1E1E] text-sm font-bold
+    lg:text-base
+}
+.TestimonialCardNameDesc{
+    color: rgba(30, 30, 30, 0.5);
+    @apply text-xs font-bold
+    lg:text-sm
+}

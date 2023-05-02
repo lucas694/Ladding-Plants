@@ -1,0 +1,14 @@
+.CategoriesCardContainer{
+    @apply flex flex-col items-center justify-center w-auto max-w-[280px] bg-[#C1DCDC]
+    sm:w-[200px]
+    xl:max-w-[300px] xl:w-auto
+    transition duration-300 ease-in-out cursor-pointer
+    hover:scale-105
+}
+.CategoriesCardText {
+    @apply flex items-center justify-center w-full p-0.5
+}
+.CategoriesCardText h1{
+    @apply text-sm font-semibold text-[#1E1E1E] text-center
+    lg:text-base
+}
